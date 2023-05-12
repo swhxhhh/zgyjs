@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+/* 开头 */
+.header-top {
+    width: 100%;
+    height: 40px;
+    color: #333333;
+    background-color: #F7F9FA;
+    line-height: 40px;
+}
+/* 开头中间盒子 */
+.header-top .header-top-context {
+    margin: 0 auto;
+    width: 1180px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #F7F9FA;
+    font-size: 10px;
+    
+   
+}
+.header-top-context ul li a{
+    height: 12px;
+    float: left;
+    color: #333333;
+    margin-left: 20px;
+}
+/* 第二部分整行 */
+.header-middle{
+    width: 100%;
+    height: 110px;
+    background-color: #FFFFFF;
+
+}
+/* 第二部分中间盒子 */
+.header-middle-context{
+    width: 1180px;
+    height: 110px;
+    margin: 0 auto;
+    /* 居中 */
+    background-color: #FFFFFF;
+}
+.header-middle-left a {
+    display: block;
+    float: left;
+    width: 370px;
+    height: 110px;
+    background: url(./images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    background-color: #FFFFFF;
+}
+
+/*  登录部分盒子*/
+.header-middle-right{
+    width: 363.61px;
+    height: 110px;
+    line-height: 110px;
+    background-color: #FFFFFF;
+    float:right;
+}
+/* "登录”字体 */
+.header-middle-right a{
+    margin-left: 1px;
+    font-size: 15px;
+    color: #333333;
+}
+/* 蓝条 */
+.headr-bottom{
+   width: 100%;
+   height: 80px;
+   background-color: #1787E0;
+}
+.headr-bottom-context{
+    width: 1180px;
+    height: 80px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+/* 资讯部分 */
+.header-middle-context-a{
+    width: 302px;
+    height: 80px;
+    float: left;
+}
+.header-middle-context-a .con-th{
+    width: 44px;
+    height: 80px;
+    float: left;
+    line-height: 80px;
+}
+.header-middle-context-a .con-td{
+    width: 258px;
+    height: 56px;
+    float: left;
+   margin-top: 12px;
+   color: #FFFFFF;
+}
+.header-middle-context-a .con-td ul li{
+    float: left;
+    height: 28px;
+margin: 0px 6px;
+color: #FFFFFF;
+}
+.header-middle-context-a .con-td ul li a {
+    color: #fff;
+}
+/* 信息库部分 */
+.header-middle-context-b{
+    width: 229px;
+    float: left;
+    height: 80px;
+}
+.header-middle-context-b .con-th{
+    width: 84px;
+    height: 80px;
+    float: left;
+    line-height: 80px;
+}
+.header-middle-context-b .con-td{
+    width: 145px;
+    height: 56px;
+    float: left;
+    margin-top: 12px;
+}
+.header-middle-context-b .con-td ul li{
+    float: left;
+    height: 28px;
+  margin: 0px 6px;
+}
+     /* margin-top上下调 */
+/* 硕士部分 */
+.header-middle-context-c{
+    width: 504px;
+    float: left;
+    height: 80px;
+    
+}
+.header-middle-context-c .con-th{
+    width: 68px;
+    height: 80px;
+    float: left;
+    
+    line-height: 80px;
+}
+.header-middle-context-c .con-td{
+    width: 436px;
+    height: 56px;
+    float: left;
+    margin-top: 12px;
+}
+.header-middle-context-c .con-td ul li{
+    float: left;
+    height: 28px;
+margin: 0px 6px;
+}
+/* 博士部分 */
+.header-middle-context-d{
+    width: 145px;
+    float: left;
+    height: 80px;
+  
+}
+.header-middle-context-d .con-th{
+    width: 68px;
+    height: 80px;
+    float: left;
+    line-height: 80px;
+   
+}
+.header-middle-context-d .con-td{
+    width: 77px;
+    height: 56px;
+    float: left;
+    margin-top: 12px;
+}
+.header-middle-context-d .con-td ul li{
+    float: left;
+    height: 28px;
+    margin: 0px 6px;
+font-size: 15px;
+}
+.neck{
+    width: 1376px;
+    height: 704px;
+    margin-top: 20px;
+    background-color: chartreuse;
+}
+.neck-first{
+    width: 1180px;
+    height: 704px;
+    background-color: crimson;
+    margin: 0 auto;
+}
+.neck-second{
+    width: 1180px;
+    height: 380px;
+    background-color: green;
+}
+.neck-second-left{
+    width: 240px;
+    height: 380px;
+    background-color: goldenrod;
+}
+.second-letf-top{
+    width: 240px;
+    height: 54px;
+    background-color: cyan;
+}
+.second-left-bottom{
+    width: 240px;
+    height: 326px;
+    background-color: cornflowerblue;
+}
+.top-enter{
+    width: 208px;
+    height: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 700px;
+    padding-top: 20px;
+    background-image: url(/images/yz_index_sprit.png);
+}
+
+
+.second-left-bottom ul li{
+    display: block;
+    width: 240px;
+    height: 40px;
+    background-color: gold;
+}
+
+
+
